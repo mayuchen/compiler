@@ -1,0 +1,49 @@
+﻿生成启动时间为 2015/1/11 1:02:13。
+     1>项目“D:\编译\Compiler\Compiler\Compiler.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\应用\Mircosoft Visual Studio 2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt syntax.c
+         syntax.c
+     1>d:\编译\compiler\compiler\syntax.c(51): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\应用\mircosoft visual studio 2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>d:\编译\compiler\compiler\syntax.c(79): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\应用\mircosoft visual studio 2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>d:\编译\compiler\compiler\syntax.c(174): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\应用\mircosoft visual studio 2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>d:\编译\compiler\compiler\syntax.c(183): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\应用\mircosoft visual studio 2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>d:\编译\compiler\compiler\syntax.c(724): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\应用\mircosoft visual studio 2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>d:\编译\compiler\compiler\syntax.c(777): warning C4033: “return_sentence”必须返回值
+     1>d:\编译\compiler\compiler\syntax.c(1212): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\应用\mircosoft visual studio 2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>d:\编译\compiler\compiler\syntax.c(1218): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\应用\mircosoft visual studio 2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>d:\编译\compiler\compiler\syntax.c(299): warning C4715: “vardeclaration”: 不是所有的控件路径都返回值
+     1>d:\编译\compiler\compiler\syntax.c(324): warning C4716: “expression”: 必须返回一个值
+     1>d:\编译\compiler\compiler\syntax.c(339): warning C4716: “term”: 必须返回一个值
+     1>d:\编译\compiler\compiler\syntax.c(451): warning C4716: “factor”: 必须返回一个值
+     1>d:\编译\compiler\compiler\syntax.c(566): warning C4715: “sentence”: 不是所有的控件路径都返回值
+     1>d:\编译\compiler\compiler\syntax.c(598): warning C4716: “function_body”: 必须返回一个值
+     1>d:\编译\compiler\compiler\syntax.c(716): warning C4715: “read”: 不是所有的控件路径都返回值
+     1>d:\编译\compiler\compiler\syntax.c(762): warning C4715: “write”: 不是所有的控件路径都返回值
+     1>d:\编译\compiler\compiler\syntax.c(813): warning C4715: “return_sentence”: 不是所有的控件路径都返回值
+     1>d:\编译\compiler\compiler\syntax.c(856): warning C4716: “if_sentence”: 必须返回一个值
+     1>d:\编译\compiler\compiler\syntax.c(936): warning C4715: “assign_sentence”: 不是所有的控件路径都返回值
+     1>d:\编译\compiler\compiler\syntax.c(1072): warning C4715: “do_sentence”: 不是所有的控件路径都返回值
+     1>d:\编译\compiler\compiler\syntax.c(1021): warning C4715: “for_assign_sentence”: 不是所有的控件路径都返回值
+     1>d:\编译\compiler\compiler\syntax.c(1116): warning C4716: “for_sentence”: 必须返回一个值
+     1>d:\编译\compiler\compiler\syntax.c(1284): warning C4716: “program”: 必须返回一个值
+       Link:
+         D:\应用\Mircosoft Visual Studio 2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\编译\Compiler\Debug\Compiler.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\编译\Compiler\Debug\Compiler.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\编译\Compiler\Debug\Compiler.lib" /MACHINE:X86 Debug\error.obj
+         Debug\gencode.obj
+         Debug\getsym.obj
+         Debug\interpret.obj
+         Debug\table.obj
+         Debug\test2.obj
+         Debug\syntax.obj
+         Compiler.vcxproj -> D:\编译\Compiler\Debug\Compiler.exe
+     1>已完成生成项目“D:\编译\Compiler\Compiler\Compiler.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.73

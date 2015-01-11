@@ -1,0 +1,16 @@
+int program();
+int constdeclaration(int *sym,char area[]);
+int vardeclaration(int *sym,char area[],int *addr);
+int expression(int *sym,char FunID[]);
+int term(int *sym,char FunID[]);
+int factor(int *sym,char FunID[]);
+int cal_function(int *sym,char funID[]);
+int sentence(int *sym,char name[]);
+int function_body(int *sym,char name[],int funptr);
+int read(int *sym,char funid[]);
+int write(int *sym,char funid[]);
+int return_sentence(int *sym,char funID[]);
+int if_sentence(int *sym,char funid[]);
+int assign_sentence(int *sym,char funID[]);
+int do_sentence(int *sym,char funid[]);
+int for_sentence(int *sym,char funid[]);

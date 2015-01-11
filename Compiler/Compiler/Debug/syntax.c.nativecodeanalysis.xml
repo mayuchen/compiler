@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DEFECTS><DEFECT><SFA><FILEPATH>d:\编译\compiler\compiler\</FILEPATH><FILENAME>syntax.c</FILENAME><LINE>865</LINE><COLUMN>29</COLUMN></SFA><DEFECTCODE>6236</DEFECTCODE><DESCRIPTION>(&lt;表达式&gt; || &lt;非零常量&gt;)始终为非零常量。</DESCRIPTION><FUNCTION>assign_sentence</FUNCTION><DECORATED>assign_sentence</DECORATED><FUNCLINE>796</FUNCLINE><PATH/></DEFECT></DEFECTS>
